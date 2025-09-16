@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+    background-color: #F5F5DC;
+}
+.wel-box{
+    background-color: #3C5156ff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+h1{
+    position: relative;
+    right: 40px;
+    font-size: 1.75rem;
+    background-color: transparent;
+    color: #00000073;
+}
+.head-logo{
+    display: flex;
+    flex: wrap;
+    height: 110px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    background-image: url("logo.gif");
+    height: 75px;
+    width: 280px;
+    margin-left: 54px;
+}
+.account{
+    font-size: 1.5rem;
+    color: #3C5156ff;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 40px;
+}
+i{
+    font-size: 1.9rem;
+    margin: 0 10px 30px 0;
+    background-color: transparent;
+}
+.account-cart{
+    position: relative;
+    right: 80px;
+    top: 20px;
+}
+.search-bar{
+    display: flex;
+    flex: wrap;
+    justify-content: end;
+    position: relative;
+    right:65px;
+    height: 40px;
+    border: none;
+}
+.inputbar{
+    height: 100%;
+    width: 240px;
+    text-align: center;
+    background-color: #F7FCFDbf;
+    border: none;
+    font-weight: 700;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.searchbutton{
+    height: 100%;
+    width: 100px;
+    background-color: #3C5156ff;
+    color: white;
+    border: none;
+    font-weight: 700;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    }
+.nav-ops{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: end;
+}
+.ops{
+    color: #3C5156ff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: poppins, Arial;
+    text-transform: capitalize;
+}
+.pic{
+    margin-top: 20px;
+    background-image: url("stock-photo-interior.webp");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 0 10px 0;
+}
+p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-family: poppins,arial;
+}
+.foot{
+    height: 70px;
+}
+.contact{
+    background-color: transparent;
+position: relative;
+right: 40px;
+margin-top: 15px;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3C5156ff;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
